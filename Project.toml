@@ -1,0 +1,7 @@
+name = "GeometricAlgebra"
+uuid = "e5e1d9a6-e1f3-11e8-2670-81ea63d74a8d"
+authors = ["MasonProtter <mason.protter@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
