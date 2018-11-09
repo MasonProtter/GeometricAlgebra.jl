@@ -1,11 +1,12 @@
 module GeometricAlgebra
 
-struct GA
-    metric::Array{Number, 2}
-    symbols::Vector{String}
-end
+#----------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
+using LinearAlgebra, OffsetArrays, REPL, StaticArrays, DataStructures
+
+export GA, BasisVector, CliffordElement,  vectors
+
+include("types.jl")
 
 
-
-
-end
+end # module end
